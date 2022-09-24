@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background: url('https://images.unsplash.com/photo-1533294455009-a77b7557d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%;
+  
+  
+   
+}
+html {
+  scroll-behavior: smooth !important;
+  
+}
+a{
+  text-decoration: none;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,h2,h3,h5,h6,span{
+  font-size: 18px;
+  color: rgb(42, 38, 43);
+  font-family: Poppins,sans-serif;
+}
+h4{
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h1__big{
+  font-size: 60px;
+  font-weight: 800;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li{
+  overflow: hidden;
+}
+span{
+  display: block;
+}
+p{
+  font-size: 16px;
+  font-family: 'Sansita Swashed', cursive;
+}
+.white{
+  color: #fff!important;
+}
+.black{
+  color: #DFD3C3!important;
+}
+.d__flex{
   display: flex;
-  flex-direction: column;
+}
+.align__items__center{
   align-items: center;
+}
+.navbar-light{
+  background-color: rgb(243, 230, 230) !important;
+}
+
+.justify__content__space__between{
+  justify-content: space-between;
+}
+.mx__15{
+  margin: 0px 15px;
+}
+.px__30{
+  padding: 0px 30px;
+}
+.pxy__30{
+  padding: 30px;
+}
+
+.pz__10{
+  padding: 10px 0px;
+}
+.sweet{
+  color: #F9004D;
+}
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.col__2 {
+  max-width: 50%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+}
+.col__3{
+  max-width: 33.333333%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.component__space{
+  padding: 100px 0px;
+}
+.pointer{
+  cursor: pointer;
+}
+svg {
+  stroke-width: 1!important;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.svg__normal{
+  flex: auto;
+  width: 30px;
+  height: 30px;
+
+  
+}
+.li__hover:hover{
+  transform: translateY(5px);
+  
+  box-shadow: #995aaa  0px 54px 55px, #995aaa  0px -12px 30px, #995aaa  0px 4px 6px, #995aaa 0px 12px 13px, #995aaa  0px -3px 5px  ;
+  border-radius: 2%;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+strong{
+  color: #F9004D;
+  font-weight: 600;
+}
+input{
+  color: rgba(198,201,216,.75);
+}
+button.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #cab88f;
+  background-color: #cab88f;
+  color: #fff!important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s all ease;
+  height: 50px;
+  width: 90%;
+  margin: 0px 10px;
+  
+}
+.p__normal{
+  font-family:sans-serif;
+  font-size: 18px;
+}
+.p__color {
+  color: rgba(17, 17, 19, 0.75);
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Poppins,sans-serif;
+  margin-bottom: 15px;
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+button.about.btn.pointer:hover {
+  background: #fff;
+  color: #000!important;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 768px){
+.col__2 {
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 768px){
+.col__3 {
+    max-width: 50%;
+}
+}
+@media only screen and (max-width: 425px){
+.col__3 {
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 425px){
+span.copyright {
+    font-size: 13px!important;
+}
+.footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
+  flex-wrap: wrap;
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+

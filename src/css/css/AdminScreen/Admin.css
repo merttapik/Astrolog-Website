@@ -1,0 +1,42 @@
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+.bg__admin{
+    background-color: #C7B198;
+}
+.li__admin{
+    
+    background-color: rgb(80, 76, 76);
+}
+.btn__basket__{
+    background-color: rgb(224, 30, 30) !important;
+}
+.btn__basket__:hover{
+    background-color: rgb(141, 55, 55) !important;
+}
+.label__{
+    font-weight: 700;
+}
+.margin__{
+    margin-bottom: 10%;
+}

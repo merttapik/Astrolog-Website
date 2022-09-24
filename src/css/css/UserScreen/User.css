@@ -1,0 +1,76 @@
+.s__p{
+    color: black;
+}
+.w__{
+    border:  solid red;
+    
+}
+
+.card__w{
+    width: 98%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card__w:hover{
+    box-shadow: none !important;
+}
+.card__h{
+    height: 100%;
+}
+
+.img__base{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 50px 20px 200px 10px;
+}
+.img__basket{
+    width: 50%;
+    border-radius: 6%;
+   
+}
+.h3__basket{
+    font-size: 20px;
+    color: rgb(36, 35, 35);
+}
+.w__basket{
+    width: 40%;
+}
+.btn__basket{
+    width: 100%;
+    background-color: rgb(224, 30, 30) !important;
+    
+}
+.btn__basket:hover{
+    background-color: rgb(141, 55, 55) !important;
+}
+.btn__color__basket{
+    background-color: rgb(44, 155, 71) !important;
+}
+.btn__color__basket:hover{
+    background-color: rgb(8, 245, 67) !important;
+}
+
+.margin__basket{
+    margin-left: 10%;
+}
+.w1{
+    width: 100%;
+}
+.full{
+    width: 100%;
+    height: 100vh
+    
+}
+.h1__comment__{
+    font-size: 40px;
+    color: rgb(77, 70, 70);
+    font-family: Poppins, sans-serif;
+}
+.btn__c{
+    width: 50% !important;
+}
+.txta{
+    width: 80%;
+    
+}

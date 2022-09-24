@@ -1,0 +1,36 @@
+.row__height {min-height: 100vh;}
+
+.bglog{
+    background-color: #F0ECE3;
+}
+
+.h1__register{
+    font-size: 60px;
+    color: rgb(66, 68, 70);
+    text-align: center;
+}
+
+input{
+    box-shadow: none !important;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+.btn-register{
+    font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #cab88f;
+  background-color: #cab88f;
+  color: #fff!important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s all ease;
+  height: 50px !important;
+  width: 30% !important;
+  margin: 0px 10px;
+}
+
+.boxshadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

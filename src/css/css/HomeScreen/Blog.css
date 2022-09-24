@@ -1,0 +1,56 @@
+.bg2 {
+  background-color: #c7b198;
+}
+
+.card {
+  width: 28rem;
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 10px #995aaa !important ;
+}
+
+.card-body {
+  padding: 3rem 0 !important;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid.row {
+  padding-top: 6rem;
+}
+
+.p__ {
+  font-size: 18;
+  padding-right: 18rem;
+  padding-right: 25rem;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #c7b198;
+  background-color: #c7b198;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.4s all ease;
+  height: 50px;
+  width: 180px;
+  margin: 0px 10px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000 !important;
+}
+
+.blogh1 {
+  font-size: 60px;
+}

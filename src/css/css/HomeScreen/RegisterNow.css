@@ -1,0 +1,64 @@
+h1.heading{
+    font-size: 50px;
+    
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.bg_{
+ background-color: #C7B198;
+}
+p.heading.p__color{
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.service__box{
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(230, 221, 221);
+    padding: 55px;
+    transition: .4s ease;
+}
+.service__box:hover{
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg,#A68DAD,#995aaa);
+}
+.service__box:hover .icon{
+    color: #fff;
+}
+.regis{
+    float: left;
+    width:  300px;
+    height: 150px;
+    object-fit: cover;;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.icon{
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #f9004d;
+}
+p.service__text.p__color{
+    margin-bottom: 0;
+    color: rgb(48, 44, 44);
+}
+h1.service__text{
+    font-size: 19px;
+    font-family: Poppins,sans-serif;
+    padding: 10px 0px;
+    font-weight:bold; 
+    
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #A68DAD !important;
+}
+@media only screen and (max-width: 1024px){
+    .service__box{
+        padding: 32px;
+    }
+}

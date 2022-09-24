@@ -1,0 +1,32 @@
+.img__blog__part{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 2%;
+}
+.h1__blog__part{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(51, 46, 46);
+}
+.h1__blog__partt{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(51, 46, 46);
+}
+.p__blog__part{
+    width: 100%;
+    font-weight: 500;
+    font-family:Poppins,sans-serif;
+
+}
+.p__blog__part2{
+    width: 5%;
+    font-weight: 500;
+    font-family:Poppins,sans-serif;
+
+}
+
+.h2__{
+    font-size: 20px;
+    font-weight: 700;
+}

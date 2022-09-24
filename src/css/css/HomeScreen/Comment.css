@@ -1,0 +1,43 @@
+.course__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(230, 221, 221);
+    padding: 55px;
+    transition: 0.4s ease;
+    
+  }
+  .course__box2 {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #F0ECE3;
+    padding: 55px;
+    transition: 0.4s ease;
+    
+  }
+
+  h1.comment{
+      font-size:80px;
+      font-weight: 800;
+      color: rgb(44, 43, 43);
+      font-family:'Dancing Script', cursive;
+      width: 16vw;
+      
+  }
+  .borrad{
+      border-radius: 50%;
+      width: 20%;
+  }
+  p{
+    font-size: 140%;
+    font-family:'Dancing Script', cursive;
+    width: 180%;
+  }
+  .he__{
+    height: 90vh;
+    text-align: end;
+  }
+  @media only screen and (max-width: 768px){
+    h1.comment{
+      width: 110%;
+    }
+  }

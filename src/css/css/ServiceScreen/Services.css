@@ -1,0 +1,44 @@
+.img__services{
+    border-radius: 10%;
+    width: 100%;
+}
+
+.h1__services{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.li__service {
+    list-style-type: disc;
+    font-weight: 350 !important;
+    font-size: 17px !important;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.ul__service{
+    width: 33%; float: left;
+}
+
+.p__text__align{
+    text-align: left;
+    
+}
+.top{
+    width:50%;
+    height:100%;
+    float:left;  
+}
+
+.h2__service{
+    font-weight: 600;
+}
+
+.bg__appoitment{
+    background-color:
+    #DFD3C3 !important ;
+    
+}
+.btn_appoitment{
+    width: 100%;
+}
